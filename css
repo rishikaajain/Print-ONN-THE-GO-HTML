@@ -1,0 +1,320 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  font-family: 'Poppins' sans-serif;
+}
+
+section{
+  position: relative;
+  width: 100%;
+  min-height:100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(223, 215, 215);
+}
+
+header
+{
+  position: absolute;
+  top: 0;
+  Left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo{
+  position: relative;
+  max-width: 20px;
+
+}
+
+header ul{
+  position: relative;
+  display: flex;
+}
+
+header ul li{
+  list-style: none;
+}
+
+header ul li a{
+  display: inline;
+  color: rgb(20, 19, 19);
+  font-weight: 200;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.btn1{
+display: inline-block;
+margin-top: 10px;
+padding: 8px 20px;
+background:rgb(27, 27, 63);
+color: #fff;
+border-radius: 40px;
+font-weight: 500;
+letter-spacing: 1px;
+text-decoration: none;
+text-shadow: rgb(194, 176, 176);
+}
+
+.btn3{
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 10px;
+  background:red;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: 340;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-shadow: rgb(194, 176, 176);
+  }
+
+  .btn4{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 10px;
+    background:green;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 340;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-shadow: rgb(194, 176, 176);
+    }
+
+ .btn5{
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 10px;
+      background:green;
+      color: #fff;
+      border-radius: 10px;
+      font-weight: 340;
+      letter-spacing: 1px;
+      text-decoration: none;
+      text-shadow: rgb(194, 176, 176);
+ }
+
+
+.content{
+position: relative;
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.content .textbox{
+  position: relative;
+  max-width: 600px;
+}
+
+.content .textbox h2
+{
+  color: #333; 
+  font-size: 2em;
+  Line-height: 1.2em; 
+  font-weight: 250;
+}
+
+.content .textbox h2 span
+{
+color: #271e54; 
+font-size: 1em; 
+font-weight: 500;
+}
+
+.textbox p
+{
+color: rgb(43, 40, 45);
+}
+
+.textbox a
+{
+display: inline-block;
+margin-top: 20px;
+padding: 8px 20px;
+background:rgb(27, 24, 66);
+color: #fff;
+border-radius: 20px;
+font-weight: 450px;
+letter-spacing: 1px;
+text-decoration: none;
+}
+a:hover {
+  color: rgb(30, 30, 30);
+  background-color: transparent;
+}
+
+a:active {
+  color: rgb(9, 164, 79);
+  background-color: transparent;
+  text-decoration: underline;
+}
+.content .imagebox{
+  width: 900px;
+  height: 500px;
+  display: flex;
+  transform: translateY(-50%);
+  justify-content: center;
+  transform: scale( 0.8);
+
+}
+
+.sci{
+position:absolute;
+top: 80%;
+right: 30px;
+transform: translateY(-50%);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.sci li{
+  list-style: none;
+}
+
+.sci li a{
+  display: inline-block;
+  margin: 5px 0;
+  transform: scale(0.6);
+  filter: invert(1);
+}
+
+
+
+
+.circle{
+  position: absolute;  ;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #170e2c;
+  clip-path: circle(600px at right 750px);
+}
+
+
+
+th, td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+  text-align: center;
+}
+
+.orders{
+  width: 600px;
+  height: 700px;
+  display: center;
+}
+
+
+.table{
+   position: relative;
+  padding-left: 50px;
+  padding-right: 5px;
+  border-spacing: 2px;
+  display: flex;
+  table-layout: fixed;
+  text-align: center;
+}
+
+
+table {
+  position: relative;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-spacing: 20px;
+  display: flex;
+  table-layout: fixed;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(198, 225, 225, 0.4);
+}
+
+
+
+tr {
+  border-bottom: 1px solid #ddd;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-right: 50%;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
